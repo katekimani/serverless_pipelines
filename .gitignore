@@ -1,8 +1,9 @@
 tmp
 Users
 venv
-Include
-Lib
-Scripts
-tcl
+/Include
+/Lib
+/Scripts
+/tcl
 pip-selfcheck.json
+
