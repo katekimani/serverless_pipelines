@@ -108,7 +108,8 @@ Ask the end user what they want to ask or answer about the app or data. E.g how 
 
 ## CODE EXECUTION 
 - Run the code remotely on GCP example (from the root folder of the code): 
-   ```python -m kiva_org.loans \
+   ```
+   python -m kiva_org.loans \
       --runner=DataflowRunner \
       --project=kiva-org-pipeline \
       --temp_location=gs://kiva_org_pipeline/tmp \
@@ -119,7 +120,8 @@ Ask the end user what they want to ask or answer about the app or data. E.g how 
  - Run the code locally example:
     `python -m kiva_org.loans --runner=DirectRunner`
  - Run the big query version of the code remotely example:
-    ```python -m kiva_org.loans_bigquery \
+    ```
+    python -m kiva_org.loans_bigquery \
        --runner=DataflowRunner \
        --project=kiva-org-pipeline \
        --temp_location=gs://kiva_org_pipeline/tmp \
