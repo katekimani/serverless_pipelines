@@ -118,7 +118,12 @@ Ask the end user what they want to ask or answer about the app or data. E.g how 
       --input=gs://kiva_org_pipeline/data/kiva/loans.csv
    ```
  - Run the code locally example:
-    `python -m kiva_org.loans --runner=DirectRunner`
+    ```
+    python -m kiva_org.loans \
+    --runner=DirectRunner \
+    --input=loans.csv \
+    --output=tmp/loans
+    ```
  - Run the big query version of the code remotely example:
     ```
     python -m kiva_org.loans_bigquery \

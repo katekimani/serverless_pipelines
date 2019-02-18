@@ -87,11 +87,11 @@ def run(argv=None):
 
     parser.add_argument('--input',
                         type=str,
-                        default='/Users/ke-fvf2362hv2h/ownspace/workshops/data/kiva/loans_mini.csv',
+                        required=True,
                         help='Path to the data file(s) containing loan data.')
     parser.add_argument('--output',
                         type=str,
-                        default='tmp/loans_bq',
+                        required=True,
                         help='Path to the output file(s).')
     parser.add_argument('--dataset',
                         type=str,

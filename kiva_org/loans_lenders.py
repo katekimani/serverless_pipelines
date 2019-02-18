@@ -31,12 +31,12 @@ def run(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument('--input',
                         type=str,
-                        default='/Users/ke-fvf2362hv2h/ownspace/workshops/data/kiva/loans_lenders_mini.csv',
+                        required=True,
                         help='Path to file with raw data.'
                         )
     parser.add_argument('--output',
                         type=str,
-                        default='tmp/loans_lenders',
+                        required=True,
                         help='Path to write output data files to.'
                         )
     args, pipeline_args = parser.parse_known_args(argv)
