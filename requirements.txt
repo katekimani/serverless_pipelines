@@ -27,7 +27,7 @@ googledatastore==7.0.2
 grpc-google-iam-v1==0.11.4
 grpcio==1.18.0
 hdfs==2.2.2
-httplib2==0.11.3
+httplib2==0.18.0
 idna==2.8
 imagesize==1.1.0
 Jinja2==2.10
