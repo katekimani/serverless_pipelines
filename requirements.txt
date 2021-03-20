@@ -30,7 +30,7 @@ hdfs==2.2.2
 httplib2==0.11.3
 idna==2.8
 imagesize==1.1.0
-Jinja2==2.10
+Jinja2==2.11.3
 MarkupSafe==1.1.0
 mock==2.0.0
 monotonic==1.5
