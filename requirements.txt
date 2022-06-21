@@ -35,7 +35,7 @@ MarkupSafe==1.1.0
 mock==2.0.0
 monotonic==1.5
 nose==1.3.7
-numpy==1.16.1
+numpy==1.22.0
 oauth2client==3.0.0
 packaging==19.0
 parameterized==0.6.3
